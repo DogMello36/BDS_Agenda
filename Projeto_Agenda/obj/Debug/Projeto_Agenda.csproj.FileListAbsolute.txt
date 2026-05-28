@@ -1,0 +1,13 @@
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\bin\Debug\Projeto_Agenda.exe.config
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\bin\Debug\Projeto_Agenda.exe
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\bin\Debug\Projeto_Agenda.pdb
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.AssemblyReference.cache
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.ConPessoas.resources
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.FrmCadPessoas.resources
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.MDI_menu.resources
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.Properties.Resources.resources
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.GenerateResource.cache
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.CoreCompileInputs.cache
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.exe
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.pdb
+C:\Users\LabInfo\Source\Repos\BDS\Projeto_Agenda\obj\Debug\Projeto_Agenda.exe.config
