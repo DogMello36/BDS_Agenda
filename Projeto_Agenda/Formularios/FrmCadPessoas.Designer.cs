@@ -278,7 +278,7 @@
             // iDTextBox
             // 
             this.iDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pessoa_MBindingSource, "ID", true));
-            this.iDTextBox.Location = new System.Drawing.Point(171, 58);
+            this.iDTextBox.Location = new System.Drawing.Point(154, 58);
             this.iDTextBox.Name = "iDTextBox";
             this.iDTextBox.Size = new System.Drawing.Size(200, 26);
             this.iDTextBox.TabIndex = 2;
