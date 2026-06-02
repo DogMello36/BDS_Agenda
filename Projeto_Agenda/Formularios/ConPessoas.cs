@@ -64,7 +64,10 @@ namespace Projeto_Agenda.Formularios
             {
                 filtro += " like '%" + txtValor.Text + "%'";
             }
-            pessoaBindingSource.Filter = filtro;
+            else {
+                filtro = "";
+            }
+                pessoaBindingSource.Filter = filtro;
         }
     }
 }
