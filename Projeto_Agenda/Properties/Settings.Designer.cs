@@ -37,8 +37,8 @@ namespace Projeto_Agenda.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.255.252;User ID=250057;Password=A12345678a;TrustServerCertific" +
-            "ate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.255.252;User ID=250057;Password=123456;TrustServerCertificate=" +
+            "True")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
