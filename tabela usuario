@@ -1,0 +1,6 @@
+create table Usuario (
+	ID int identity(1,1),
+	Nome_Usuario varchar(50) not null,
+	Senha varchar(20) not null,
+	Nivel int not null
+);
