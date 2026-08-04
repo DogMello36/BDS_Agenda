@@ -42,24 +42,26 @@
             this.btnFiltrar = new System.Windows.Forms.Button();
             this.dataSetServer = new Projeto_Agenda.DataSetServer();
             this.dataSet1 = new Projeto_Agenda.DataSet1();
-            this.dgvPessoas = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.endereçoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataNascimentoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataSetServerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pessoaTableAdapter = new Projeto_Agenda.DataSet1TableAdapters.PessoaTableAdapter();
+            this.dataNascimentoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.endereçoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvPessoas = new System.Windows.Forms.DataGridView();
+            this.dataSet_Agenda1 = new Projeto_Agenda.Dados.DataSet_Agenda();
             ((System.ComponentModel.ISupportInitialize)(this.pessoaMBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet_Agenda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetAgendaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPessoas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetServerBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPessoas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet_Agenda1)).BeginInit();
             this.SuspendLayout();
             // 
             // pessoaMBindingSource
@@ -84,18 +86,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 56);
+            this.label1.Location = new System.Drawing.Point(15, 36);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 20);
+            this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Pesquisar por";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(215, 56);
+            this.label2.Location = new System.Drawing.Point(143, 36);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
+            this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Buscar";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -103,9 +107,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(423, 56);
+            this.label3.Location = new System.Drawing.Point(282, 36);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 20);
+            this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Valor";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -121,9 +126,10 @@
             "Cidade",
             "Email",
             "Data_Nascimento"});
-            this.cmbColuna.Location = new System.Drawing.Point(26, 79);
+            this.cmbColuna.Location = new System.Drawing.Point(17, 51);
+            this.cmbColuna.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbColuna.Name = "cmbColuna";
-            this.cmbColuna.Size = new System.Drawing.Size(171, 28);
+            this.cmbColuna.Size = new System.Drawing.Size(115, 21);
             this.cmbColuna.TabIndex = 4;
             // 
             // cmbBuscar
@@ -137,23 +143,26 @@
             "Que termina com",
             "Que contém",
             "Que esteja entre"});
-            this.cmbBuscar.Location = new System.Drawing.Point(219, 79);
+            this.cmbBuscar.Location = new System.Drawing.Point(146, 51);
+            this.cmbBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbBuscar.Name = "cmbBuscar";
-            this.cmbBuscar.Size = new System.Drawing.Size(186, 28);
+            this.cmbBuscar.Size = new System.Drawing.Size(125, 21);
             this.cmbBuscar.TabIndex = 5;
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(427, 81);
+            this.txtValor.Location = new System.Drawing.Point(285, 53);
+            this.txtValor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(168, 26);
+            this.txtValor.Size = new System.Drawing.Size(113, 20);
             this.txtValor.TabIndex = 6;
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.Location = new System.Drawing.Point(632, 74);
+            this.btnFiltrar.Location = new System.Drawing.Point(421, 48);
+            this.btnFiltrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(144, 37);
+            this.btnFiltrar.Size = new System.Drawing.Size(96, 24);
             this.btnFiltrar.TabIndex = 7;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = true;
@@ -169,74 +178,6 @@
             this.dataSet1.DataSetName = "DataSet1";
             this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dgvPessoas
-            // 
-            this.dgvPessoas.AutoGenerateColumns = false;
-            this.dgvPessoas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPessoas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.endereçoDataGridViewTextBoxColumn,
-            this.cidadeDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn,
-            this.dataNascimentoDataGridViewTextBoxColumn});
-            this.dgvPessoas.DataSource = this.pessoaBindingSource;
-            this.dgvPessoas.Location = new System.Drawing.Point(26, 124);
-            this.dgvPessoas.Name = "dgvPessoas";
-            this.dgvPessoas.RowHeadersWidth = 62;
-            this.dgvPessoas.RowTemplate.Height = 28;
-            this.dgvPessoas.Size = new System.Drawing.Size(750, 302);
-            this.dgvPessoas.TabIndex = 0;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // nomeDataGridViewTextBoxColumn
-            // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
-            this.nomeDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
-            this.nomeDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // endereçoDataGridViewTextBoxColumn
-            // 
-            this.endereçoDataGridViewTextBoxColumn.DataPropertyName = "Endereço";
-            this.endereçoDataGridViewTextBoxColumn.HeaderText = "Endereço";
-            this.endereçoDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.endereçoDataGridViewTextBoxColumn.Name = "endereçoDataGridViewTextBoxColumn";
-            this.endereçoDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // cidadeDataGridViewTextBoxColumn
-            // 
-            this.cidadeDataGridViewTextBoxColumn.DataPropertyName = "Cidade";
-            this.cidadeDataGridViewTextBoxColumn.HeaderText = "Cidade";
-            this.cidadeDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.cidadeDataGridViewTextBoxColumn.Name = "cidadeDataGridViewTextBoxColumn";
-            this.cidadeDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            this.emailDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // dataNascimentoDataGridViewTextBoxColumn
-            // 
-            this.dataNascimentoDataGridViewTextBoxColumn.DataPropertyName = "Data_Nascimento";
-            this.dataNascimentoDataGridViewTextBoxColumn.HeaderText = "Data_Nascimento";
-            this.dataNascimentoDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.dataNascimentoDataGridViewTextBoxColumn.Name = "dataNascimentoDataGridViewTextBoxColumn";
-            this.dataNascimentoDataGridViewTextBoxColumn.Width = 150;
-            // 
             // pessoaBindingSource
             // 
             this.pessoaBindingSource.DataMember = "Pessoa";
@@ -251,11 +192,85 @@
             // 
             this.pessoaTableAdapter.ClearBeforeFill = true;
             // 
+            // dataNascimentoDataGridViewTextBoxColumn
+            // 
+            this.dataNascimentoDataGridViewTextBoxColumn.DataPropertyName = "Data_Nascimento";
+            this.dataNascimentoDataGridViewTextBoxColumn.HeaderText = "Data_Nascimento";
+            this.dataNascimentoDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.dataNascimentoDataGridViewTextBoxColumn.Name = "dataNascimentoDataGridViewTextBoxColumn";
+            this.dataNascimentoDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.emailDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.emailDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // cidadeDataGridViewTextBoxColumn
+            // 
+            this.cidadeDataGridViewTextBoxColumn.DataPropertyName = "Cidade";
+            this.cidadeDataGridViewTextBoxColumn.HeaderText = "Cidade";
+            this.cidadeDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.cidadeDataGridViewTextBoxColumn.Name = "cidadeDataGridViewTextBoxColumn";
+            this.cidadeDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // endereçoDataGridViewTextBoxColumn
+            // 
+            this.endereçoDataGridViewTextBoxColumn.DataPropertyName = "Endereço";
+            this.endereçoDataGridViewTextBoxColumn.HeaderText = "Endereço";
+            this.endereçoDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.endereçoDataGridViewTextBoxColumn.Name = "endereçoDataGridViewTextBoxColumn";
+            this.endereçoDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // nomeDataGridViewTextBoxColumn
+            // 
+            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
+            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
+            this.nomeDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+            this.nomeDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // dgvPessoas
+            // 
+            this.dgvPessoas.AutoGenerateColumns = false;
+            this.dgvPessoas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPessoas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn,
+            this.endereçoDataGridViewTextBoxColumn,
+            this.cidadeDataGridViewTextBoxColumn,
+            this.emailDataGridViewTextBoxColumn,
+            this.dataNascimentoDataGridViewTextBoxColumn});
+            this.dgvPessoas.DataSource = this.pessoaBindingSource;
+            this.dgvPessoas.Location = new System.Drawing.Point(17, 81);
+            this.dgvPessoas.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvPessoas.Name = "dgvPessoas";
+            this.dgvPessoas.RowHeadersWidth = 62;
+            this.dgvPessoas.RowTemplate.Height = 28;
+            this.dgvPessoas.Size = new System.Drawing.Size(500, 196);
+            this.dgvPessoas.TabIndex = 0;
+            // 
+            // dataSet_Agenda1
+            // 
+            this.dataSet_Agenda1.DataSetName = "DataSet_Agenda";
+            this.dataSet_Agenda1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // ConPessoas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.btnFiltrar);
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.cmbBuscar);
@@ -264,6 +279,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvPessoas);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ConPessoas";
             this.Text = "ConPessoas";
             this.Load += new System.EventHandler(this.ConPessoas_Load);
@@ -272,9 +288,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataSetAgendaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetServer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPessoas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetServerBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPessoas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet_Agenda1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,15 +311,16 @@
         private System.Windows.Forms.Button btnFiltrar;
         private DataSetServer dataSetServer;
         private DataSet1 dataSet1;
-        private System.Windows.Forms.DataGridView dgvPessoas;
         private System.Windows.Forms.BindingSource dataSetServerBindingSource;
         private System.Windows.Forms.BindingSource pessoaBindingSource;
         private DataSet1TableAdapters.PessoaTableAdapter pessoaTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn endereçoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataNascimentoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn endereçoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dgvPessoas;
+        private Dados.DataSet_Agenda dataSet_Agenda1;
     }
 }

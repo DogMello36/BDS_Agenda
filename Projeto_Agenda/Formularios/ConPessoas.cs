@@ -23,8 +23,7 @@ namespace Projeto_Agenda.Formularios
             this.pessoaTableAdapter.Fill(this.dataSet1.Pessoa);
             // TODO: esta linha de código carrega dados na tabela 'dataSet1.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
             this.pessoaTableAdapter.Fill(this.dataSet1.Pessoa);
-            // TODO: esta linha de código carrega dados na tabela 'dataSet_Agenda.Pessoa_M'. Você pode movê-la ou removê-la conforme necessário.
-            this.pessoa_MTableAdapter.Fill(this.dataSet_Agenda.Pessoa_M);
+            // TODO: esta linha de código carrega dados na tabela 'dataSet_Agenda.Pessoa_M'. Você pode movê-la ou removê-la conforme necessário
 
         }
 

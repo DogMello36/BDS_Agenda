@@ -1,22 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\",
+  "WorkspaceRootPath": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\labinfo\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Projeto_Agenda||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\labinfo\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\labinfo\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\etecfp\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\formularios\\conpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\labinfo\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\formularios\\frmcadpessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\etecfp\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|c:\\users\\etecfp\\source\\repos\\paulinperera\\bds_agenda\\projeto_agenda\\datasetserver.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{D6EDA284-3DC6-4F23-A50D-CC49BEC7D80C}|Projeto_Agenda\\Projeto_Agenda.csproj|solutionrelative:projeto_agenda\\datasetserver.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +45,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSetServer.xsd",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\DataSetServer.xsd",
+              "RelativeDocumentMoniker": "Projeto_Agenda\\DataSetServer.xsd",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\DataSetServer.xsd",
+              "RelativeToolTip": "Projeto_Agenda\\DataSetServer.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-08-04T14:14:01.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Projeto_Agenda",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Projeto_Agenda.csproj",
+              "RelativeDocumentMoniker": "Projeto_Agenda\\Projeto_Agenda.csproj",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Projeto_Agenda.csproj",
+              "RelativeToolTip": "Projeto_Agenda\\Projeto_Agenda.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-04T14:06:04.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConPessoas.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
               "RelativeDocumentMoniker": "Projeto_Agenda\\Formularios\\ConPessoas.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
               "RelativeToolTip": "Projeto_Agenda\\Formularios\\ConPessoas.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T14:59:43.147Z",
               "EditorCaption": ""
@@ -49,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ConPessoas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs",
               "RelativeDocumentMoniker": "Projeto_Agenda\\Formularios\\ConPessoas.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs [Design]",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\ConPessoas.cs [Design]",
               "RelativeToolTip": "Projeto_Agenda\\Formularios\\ConPessoas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T14:59:41.164Z",
@@ -59,11 +94,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FrmCadPessoas.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
               "RelativeDocumentMoniker": "Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
               "RelativeToolTip": "Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmCadPessoas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
+              "DocumentMoniker": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
               "RelativeDocumentMoniker": "Projeto_Agenda\\Formularios\\FrmCadPessoas.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs [Design]",
+              "ToolTip": "C:\\Users\\EtecFP\\source\\repos\\PaulinPerera\\BDS_Agenda\\Projeto_Agenda\\Formularios\\FrmCadPessoas.cs [Design]",
               "RelativeToolTip": "Projeto_Agenda\\Formularios\\FrmCadPessoas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T14:42:57.189Z",
