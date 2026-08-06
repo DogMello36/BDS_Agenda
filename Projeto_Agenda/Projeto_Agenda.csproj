@@ -76,6 +76,12 @@
     <Compile Include="Formularios\FrmCadPessoas.Designer.cs">
       <DependentUpon>FrmCadPessoas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogon.Designer.cs">
+      <DependentUpon>frmLogon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\MDI_menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <EmbeddedResource Include="Formularios\FrmCadPessoas.resx">
       <DependentUpon>FrmCadPessoas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLogon.resx">
+      <DependentUpon>frmLogon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MDI_menu.resx">
       <DependentUpon>MDI_menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Dados\DataSet_Agenda.xsc">
       <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
@@ -150,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Relatorios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papaiz.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

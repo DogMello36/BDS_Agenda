@@ -6,3 +6,10 @@
     {
     }
 }
+
+namespace Projeto_Agenda.DataSet1TableAdapters {
+    
+    
+    public partial class UsuarioTableAdapter {
+    }
+}
