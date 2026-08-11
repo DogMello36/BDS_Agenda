@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtUsuario = new System.Windows.Forms.Label();
-            this.txtSenha = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.lblSenha = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
@@ -51,37 +51,37 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(228, 47);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(43, 13);
+            this.lblUsuario.TabIndex = 1;
+            this.lblUsuario.Text = "Usuário";
+            // 
+            // lblSenha
+            // 
+            this.lblSenha.AutoSize = true;
+            this.lblSenha.Location = new System.Drawing.Point(231, 106);
+            this.lblSenha.Name = "lblSenha";
+            this.lblSenha.Size = new System.Drawing.Size(38, 13);
+            this.lblSenha.TabIndex = 2;
+            this.lblSenha.Text = "Senha";
+            // 
             // txtUsuario
             // 
-            this.txtUsuario.AutoSize = true;
-            this.txtUsuario.Location = new System.Drawing.Point(228, 47);
+            this.txtUsuario.Location = new System.Drawing.Point(231, 64);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(43, 13);
-            this.txtUsuario.TabIndex = 1;
-            this.txtUsuario.Text = "Usuário";
+            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.TabIndex = 3;
             // 
             // txtSenha
             // 
-            this.txtSenha.AutoSize = true;
-            this.txtSenha.Location = new System.Drawing.Point(231, 106);
+            this.txtSenha.Location = new System.Drawing.Point(231, 123);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(38, 13);
-            this.txtSenha.TabIndex = 2;
-            this.txtSenha.Text = "Senha";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(231, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(231, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtSenha.Size = new System.Drawing.Size(100, 20);
+            this.txtSenha.TabIndex = 4;
             // 
             // btnOK
             // 
@@ -116,13 +116,14 @@
             this.ClientSize = new System.Drawing.Size(572, 291);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblSenha);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmLogon";
             this.Text = "frmLogon";
+            this.Load += new System.EventHandler(this.frmLogon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -133,10 +134,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label txtUsuario;
-        private System.Windows.Forms.Label txtSenha;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Label lblSenha;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ErrorProvider errorProvider1;

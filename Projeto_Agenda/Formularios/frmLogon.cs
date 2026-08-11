@@ -20,11 +20,20 @@ namespace Projeto_Agenda.Formularios
         int erros=0;
         private void btnOK_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
+            if (txtUsuario.Text == "" ){
+                errorProvider1.SetError(txtUsuario, "Por favor preencher o nome");
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(txtUsuario, "");
+            }
+                DataTable dt = new DataTable();
             UsuarioTableAdapter  taUsuario = new UsuarioTableAdapter();
-            dt = taUsuario.GetDataBy(txtUsuario.Text, txtSenha.Text);
+            dt = taUsuario.GetDataBy(txtUsuario.Text,txtSenha.Text);
             if (dt.Rows.Count>0) // se achou
             {
+
                 Properties.Settings.Default.NomeUsuarioLogado = txtUsuario.Text;
                 Properties.Settings.Default.NIvelUsuarioLogado = int.Parse(dt.Rows[0]["Nível"].ToString());
                 MDI_menu menu = new MDI_menu();
@@ -41,6 +50,11 @@ namespace Projeto_Agenda.Formularios
                     Application.Exit();
                 } 
             }
+
+        }
+
+        private void frmLogon_Load(object sender, EventArgs e)
+        {
 
         }
     }
