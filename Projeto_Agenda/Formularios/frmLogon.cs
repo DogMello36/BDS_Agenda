@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto_Agenda.DataSet1TableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,32 @@ namespace Projeto_Agenda.Formularios
         public frmLogon()
         {
             InitializeComponent();
+        }
+        int erros=0;
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            UsuarioTableAdapter  taUsuario = new UsuarioTableAdapter();
+            dt = taUsuario.GetDataBy(txtUsuario.Text, txtSenha.Text);
+            if (dt.Rows.Count>0) // se achou
+            {
+                Properties.Settings.Default.NomeUsuarioLogado = txtUsuario.Text;
+                Properties.Settings.Default.NIvelUsuarioLogado = int.Parse(dt.Rows[0]["Nível"].ToString());
+                MDI_menu menu = new MDI_menu();
+                menu.Show();
+                Close();
+            }
+            else // se não achou
+            {
+                MessageBox.Show("Usuário ou senha não encontrado");
+                erros++;
+                if (erros==3)
+                {
+                    MessageBox.Show("N° de tentativas excedido");
+                    Application.Exit();
+                } 
+            }
+
         }
     }
 }

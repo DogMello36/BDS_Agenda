@@ -82,6 +82,12 @@
     <Compile Include="Formularios\frmLogon.Designer.cs">
       <DependentUpon>frmLogon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\MDI_menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmLogon.resx">
       <DependentUpon>frmLogon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MDI_menu.resx">
       <DependentUpon>MDI_menu.cs</DependentUpon>
@@ -163,6 +172,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\papaiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alvineosesquilos4 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aint-No-Party.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
