@@ -27,7 +27,7 @@ namespace Projeto_Agenda.Formularios
             player = new SoundPlayer(Resources.Aint_No_Party);
             player.Play();
             timer = new Timer();
-            timer.Interval = 100;
+            timer.Interval = 25;
             timer.Tick += Timer_Tick;
             timer.Start();
 
@@ -44,6 +44,11 @@ namespace Projeto_Agenda.Formularios
                 frmLogon login = new frmLogon();
                 login.Show();
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

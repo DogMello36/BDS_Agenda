@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogon));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
@@ -43,10 +44,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Projeto_Agenda.Properties.Resources.papaiz;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 31);
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(22, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 145);
+            this.pictureBox1.Size = new System.Drawing.Size(203, 164);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -54,7 +56,9 @@
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(228, 47);
+            this.lblUsuario.BackColor = System.Drawing.Color.White;
+            this.lblUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblUsuario.Location = new System.Drawing.Point(251, 47);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(43, 13);
             this.lblUsuario.TabIndex = 1;
@@ -63,7 +67,8 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(231, 106);
+            this.lblSenha.BackColor = System.Drawing.Color.White;
+            this.lblSenha.Location = new System.Drawing.Point(254, 106);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(38, 13);
             this.lblSenha.TabIndex = 2;
@@ -71,21 +76,21 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(231, 64);
+            this.txtUsuario.Location = new System.Drawing.Point(254, 64);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(170, 20);
             this.txtUsuario.TabIndex = 3;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(231, 123);
+            this.txtSenha.Location = new System.Drawing.Point(254, 123);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(170, 20);
             this.txtSenha.TabIndex = 4;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(420, 64);
+            this.btnOK.Location = new System.Drawing.Point(443, 64);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(56, 20);
             this.btnOK.TabIndex = 5;
@@ -96,7 +101,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(420, 123);
+            this.btnCancelar.Location = new System.Drawing.Point(443, 123);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(56, 20);
             this.btnCancelar.TabIndex = 6;
@@ -111,9 +116,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Fuchsia;
+            this.BackColor = System.Drawing.Color.Black;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(527, 205);
+            this.ClientSize = new System.Drawing.Size(527, 195);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtSenha);
