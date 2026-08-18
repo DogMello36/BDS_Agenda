@@ -65,3 +65,17 @@ C:\Users\EtecFP\Downloads\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.csp
 C:\Users\EtecFP\Downloads\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.CoreCompileInputs.cache
 C:\Users\EtecFP\Downloads\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.exe
 C:\Users\EtecFP\Downloads\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.pdb
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\bin\Debug\Projeto_Agenda.exe.config
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\bin\Debug\Projeto_Agenda.exe
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\bin\Debug\Projeto_Agenda.pdb
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.AssemblyReference.cache
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.ConPessoas.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.FrmCadPessoas.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.frmLogon.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.frmSplashScreen.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Formularios.MDI_menu.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.Properties.Resources.resources
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.GenerateResource.cache
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.csproj.CoreCompileInputs.cache
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.exe
+C:\Users\pauli\source\repos\PaulinPerera\BDS_Agenda\Projeto_Agenda\obj\Debug\Projeto_Agenda.pdb
