@@ -30,5 +30,12 @@ namespace Projeto_Agenda.Formularios
             ConPessoas.MdiParent = this;
             ConPessoas.Show();
         }
+
+        private void relatorioPessoasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fmrVisualizaListaPessoas objVisualiza = new fmrVisualizaListaPessoas();
+            objVisualiza.MdiParent = this;
+            objVisualiza.Show();
+        }
     }
 }

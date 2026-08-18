@@ -46,7 +46,7 @@
             this.pictureBox1.Image = global::Projeto_Agenda.Properties.Resources.papaiz;
             this.pictureBox1.Location = new System.Drawing.Point(12, 31);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(169, 217);
+            this.pictureBox1.Size = new System.Drawing.Size(197, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -73,21 +73,21 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(231, 64);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(170, 20);
             this.txtUsuario.TabIndex = 3;
             // 
             // txtSenha
             // 
             this.txtSenha.Location = new System.Drawing.Point(231, 123);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(100, 20);
+            this.txtSenha.Size = new System.Drawing.Size(170, 20);
             this.txtSenha.TabIndex = 4;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(420, 61);
+            this.btnOK.Location = new System.Drawing.Point(420, 64);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(56, 20);
             this.btnOK.TabIndex = 5;
             this.btnOK.Text = "Óka";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -96,9 +96,9 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(420, 120);
+            this.btnCancelar.Location = new System.Drawing.Point(420, 123);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(56, 20);
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -113,7 +113,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Fuchsia;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(572, 291);
+            this.ClientSize = new System.Drawing.Size(527, 205);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtSenha);

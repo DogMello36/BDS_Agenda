@@ -16,5 +16,13 @@ namespace Projeto_Agenda.Formularios
         {
             InitializeComponent();
         }
+
+        private void fmrVisualizaListaPessoas_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'dataSet1.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
+            this.pessoaTableAdapter.Fill(this.dataSet1.Pessoa);
+
+            this.reportViewer1.RefreshReport();
+        }
     }
 }
