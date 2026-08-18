@@ -19,7 +19,7 @@ namespace Projeto_Agenda.Formularios
 
         private void ConPessoas_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'dataSet1.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
+            // TODO: esta linha de código carrega dados na tabela 'dataSet1.Pessoa'. Você pode movê-la ou removê-la conforme necessário.awdawdawdawds
             this.pessoaTableAdapter.Fill(this.dataSet1.Pessoa);
             // TODO: esta linha de código carrega dados na tabela 'dataSet1.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
             this.pessoaTableAdapter.Fill(this.dataSet1.Pessoa);
