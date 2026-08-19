@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,9 +14,12 @@ namespace Projeto_Agenda.Formularios
 {
     public partial class frmLogon : Form
     {
+        private SoundPlayer player;
         public frmLogon()
         {
             InitializeComponent();
+            player = new SoundPlayer(Properties.Resources.TOKYO);
+            player.Play();
         }
         int erros=0;
         private void btnOK_Click(object sender, EventArgs e)

@@ -1,4 +1,5 @@
-﻿using Projeto_Agenda.Properties;
+﻿using Microsoft.Reporting.Map.WebForms.BingMaps;
+using Projeto_Agenda.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,10 +25,10 @@ namespace Projeto_Agenda.Formularios
         private void frmSplashScreen_Load(object sender, EventArgs e)
         {
             this.Opacity = 1;
-            player = new SoundPlayer(Resources.Aint_No_Party);
+            player = new SoundPlayer(Properties.Resources.LAST_SURPRISE1);
             player.Play();
             timer = new Timer();
-            timer.Interval = 25;
+            timer.Interval = 100;
             timer.Tick += Timer_Tick;
             timer.Start();
 

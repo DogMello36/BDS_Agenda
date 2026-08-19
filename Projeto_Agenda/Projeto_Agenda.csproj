@@ -120,6 +120,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Formularios\ConPessoas.resx">
       <DependentUpon>ConPessoas.cs</DependentUpon>
@@ -141,14 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Relatos\RelatorioPessoas.rdlc" />
     <None Include="Dados\DataSet_Agenda.xsc">
       <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
@@ -198,8 +198,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\last_surprise.wav" />
+    <None Include="Resources\LAST-SURPRISE.wav" />
     <Content Include="Resources\take.jpg" />
     <Content Include="Resources\take_time.png" />
+    <None Include="Resources\TOKYO.wav" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -213,15 +216,6 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\papaiz.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\alvineosesquilos4 %282%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Aint-No-Party.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

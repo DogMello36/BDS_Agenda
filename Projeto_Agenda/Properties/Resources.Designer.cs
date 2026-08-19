@@ -63,18 +63,18 @@ namespace Projeto_Agenda.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Aint_No_Party {
+        internal static System.IO.UnmanagedMemoryStream LAST_SURPRISE1 {
             get {
-                return ResourceManager.GetStream("Aint_No_Party", resourceCulture);
+                return ResourceManager.GetStream("LAST_SURPRISE1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alvineosesquilos4__2_ {
+        internal static System.Drawing.Bitmap take {
             get {
-                object obj = ResourceManager.GetObject("alvineosesquilos4__2_", resourceCulture);
+                object obj = ResourceManager.GetObject("take", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -82,10 +82,19 @@ namespace Projeto_Agenda.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap papaiz {
+        internal static System.Drawing.Bitmap take_time {
             get {
-                object obj = ResourceManager.GetObject("papaiz", resourceCulture);
+                object obj = ResourceManager.GetObject("take_time", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream TOKYO {
+            get {
+                return ResourceManager.GetStream("TOKYO", resourceCulture);
             }
         }
     }
